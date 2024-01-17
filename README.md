@@ -1,3 +1,12 @@
+## Hello Good People ,
+This is my portfolio using next.js, frame motion, React and tailwind css.
+
+
+
+![my portfolio](https://github.com/iamafridi/project-nextJs/assets/134744098/908f231c-baeb-48e0-8dfb-9a2456d949a9)
+
+
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
