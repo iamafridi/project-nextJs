@@ -30,7 +30,7 @@ const GetStarted = () => (
             startingFeatures.map((feature, index) => (
               <StartSteps
                 key={feature}
-                number={index + 1}
+                // number={index }
                 text={feature}
               />
             ))

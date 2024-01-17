@@ -42,9 +42,11 @@ export const exploreWorlds = [
 ];
 
 export const startingFeatures = [
-  'Find a world that suits you and you want to enter',
-  'Enter the world by reading basmalah to be safe',
-  'No need to beat around the bush, just stay on the gas and have fun',
+  'Front-end : HTML,CSS,JavaScript ,Tailwind ,Bootstrap, React',
+  'Back-end : Node.Js, Express.Js',
+  'Database : MongoDB',
+  'Tools : Firebase, Github, Figma',
+  'Beginner Level: Next.js, TenStack Query, Framer Motion',
 ];
 
 export const newFeatures = [
