@@ -51,16 +51,18 @@ export const startingFeatures = [
 
 export const newFeatures = [
   {
-    imgUrl: '/vrpano.svg',
-    title: 'A new world',
+    imgUrl: '/developers.jpg',
+    title: 'Reason Why People Fail',
     subtitle:
-        'we have the latest update with new world for you to try never mind',
+        'Every where I go , I get encountered by the line “Man, this is so frustrating! I can not do it! I am losing hope! I can not take it any longer! This is not for me!” Yes, I know. Nothing in this world is as easy..',
+     link: 'https://iamafridi.medium.com/reason-why-people-fail-011398f3d92c',
   },
   {
-    imgUrl: '/headset.svg',
-    title: 'More realistic',
+    imgUrl: '/blog.jpg',
+    title: 'A Realistic Guide to Becoming a Successful Web Developer',
     subtitle:
-        'In the latest update, your eyes are narrow, making the world more realistic than ever',
+        'When it comes to web development, navigating through the expansive landscape becomes easier when you have a well-defined roadmap....',
+      link: 'https://iamafridi.medium.com/a-realistic-guide-to-becoming-a-successful-web-developer-8203b5413d5d'  ,
   },
 ];
 

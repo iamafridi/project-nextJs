@@ -32,7 +32,7 @@ const Feedback = () => (
       </motion.div>
       <motion.div variants={fadeIn('left', 'tween', 0.2, 1)} className="relative flex-1 flex justify-center items-center">
         <img
-          src="/planet-09.png"
+          src="/dp.jpg"
           alt="MyImage"
           className="w-full lg:h-[610px] h-auto min-h-[210px] object-cover rounded-[40px]"
         />

@@ -35,7 +35,7 @@ const Navbar = () => (
         <Link href={'https://www.linkedin.com/in/iamafridi/'} target='_blank'><CiLinkedin className="text-white text-2xl mb-1" /> LinkedIn</Link>
         <Link href={'https://github.com/iamafridi'} target='_blank'><FaGithub className="text-white text-2xl mb-1" />Github</Link>
         <Link href={'https://iamafridi-portfolio.netlify.app/'} target='_blank'><GrThreeDEffects className="text-white text-2xl mb-1" />3D Portfolio</Link>
-        <Link href={'https://iamafridi.medium.com/'} target='_blank'><FaMedium className="text-white text-2xl mb-1" />Blog</Link>
+        <Link href={'https://iamafridi.medium.com/'} target='_blank'><FaMedium className="text-white text-2xl" />Blog</Link>
 
       </p>
     </div>

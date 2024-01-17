@@ -55,14 +55,14 @@ const World = () => (
         </div>
         <div className="absolute top-1/2 right-[45%] w-[70px] h-[70ppx] p-[6px] rounded-full bg-[#5d6680]">
           <img
-            src="people-03.png"
+            src="people-04.png"
             alt="people"
             className="w-full h-full"
           />
         </div>
         <div className="absolute top-28 left-[65%] w-[70px] h-[70ppx] p-[6px] rounded-full bg-[#5d6680]">
           <img
-            src="people-03.png"
+            src="people-05.png"
             alt="people"
             className="w-full h-full"
           />
