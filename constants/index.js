@@ -1,28 +1,43 @@
+import { SiYourtraveldottv } from 'react-icons/si';
+import { FaGamepad, FaBookReader } from 'react-icons/fa';
+import { GrThreeDEffects } from 'react-icons/gr';
+import { LuCupSoda } from 'react-icons/lu';
+
 export const exploreWorlds = [
   {
     id: 'world-1',
     imgUrl: '/planet-01.png',
-    title: 'The Hogwarts',
+    title: 'Elara Travels',
+    link: 'https://elara-travels.web.app/',
+    logo: <SiYourtraveldottv />,
   },
   {
     id: 'world-2',
     imgUrl: '/planet-02.png',
-    title: 'The Upside Down',
+    title: 'PHero-Arena',
+    link: 'https://phero-arena.netlify.app/',
+    logo: <FaGamepad />,
   },
   {
     id: 'world-3',
     imgUrl: '/planet-03.png',
-    title: 'Kadirojo Permai',
+    title: 'Elara Library',
+    link: 'https://e-book-library-ba9da.web.app/',
+    logo: <FaBookReader />,
   },
   {
     id: 'world-4',
     imgUrl: '/planet-04.png',
-    title: 'Paradise Island',
+    title: '3D Website',
+    link: 'https://iamafridi-portfolio.netlify.app/',
+    logo: <GrThreeDEffects />,
   },
   {
     id: 'world-5',
     imgUrl: '/planet-05.png',
-    title: 'Hawkins Labs',
+    title: 'TeaHere BD',
+    link: 'https://iamafridi.github.io/teahere.bd/',
+    logo: <LuCupSoda />,
   },
 ];
 

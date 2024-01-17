@@ -18,9 +18,9 @@ const About = () => (
       <TypingText title="| About Me" textStyles="text-center" />
       <motion.p
         variants={fadeIn('up', 'tween', 0.2, 1)}
-        className="mt-[8px] font-normal sm:text-[32px] text-[16px] text-center text-secondary-white"
+        className="mt-[8px] font-normal sm:text-[20px] text-[18px] text-center text-secondary-white"
       >
-        Hello! I'm Afridi, a driven Computer Science undergrad with a knack for
+        Hello! I'm Afridi, a driven Computer Science undergrad with a knack for <br />
         <span className="font-extrabold text-white"> MERN (MongoDB, Express.js, React.js, Node.js) stack development.
         </span>
         With a deep enthusiasm for crafting efficient and user-centric web applications, I've honed my skills through hands-on projects and coursework.
