@@ -7,7 +7,7 @@ import { fadeIn, staggerContainer } from '../utils/motion';
 
 const About = () => (
   <section className={`${styles.paddings} relative z-10`}>
-    <div className="gradient-02 z-0" />
+    <div className="gradient-02 z-0 " />
     <motion.div
       variants={staggerContainer}
       initial="hidden"
@@ -18,7 +18,7 @@ const About = () => (
       <TypingText title="| About Me" textStyles="text-center" />
       <motion.p
         variants={fadeIn('up', 'tween', 0.2, 1)}
-        className="mt-[8px] font-normal sm:text-[28px] text-[28px] text-center text-secondary-white"
+        className="mt-[8px] font-normal sm:text-[18px] text-[20px] text-center text-secondary-white"
       >
         Hello! I'm Afridi, a driven Computer Science undergrad with a knack for <br />
         <span className="font-extrabold text-white"> MERN (MongoDB, Express.js, React.js, Node.js) stack development.

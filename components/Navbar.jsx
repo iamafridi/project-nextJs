@@ -17,24 +17,33 @@ const Navbar = () => (
     className={`${styles.xPaddings} py-8 relative`}
   >
     <div className="absolute w-[50%] inset-0 gradient-01" />
-    <div className={`${styles.innerWidth} mx-auto flex justify-between gap-8`}>
+    <div className={`${styles.innerWidth}  mx-auto flex justify-between gap-8`}>
       <img
         src="/favicon.gif"
         alt="search"
-        className="w-[34px] h-[34px] object-contain"
+        className="w-[34px] h-[34px] object-contain hidden lg:flex"
       />
-      <Link href="/"> <h2 className="font-extrabold text-[24px] leading-[30px] text-white">AFRIDI HERE</h2>
+      <Link href="/"> <h2 className="font-extrabold text-[24px] leading-[30px] text-white  text-center">AFRIDI HERE</h2>
       </Link>
+      <img
+        src="/favicon.gif"
+        alt="search"
+        className="w-[34px] h-[34px] object-contain lg:hidden"
+      />
       {/* <img
         src="/menu.svg"
         alt="menu"
         className="w-[24px] h-[24px] object-contain"
       /> */}
-      <p className="flex flex-col gap-5 text-center text-white items-start justify-start  ">
-        <Link href="https://www.linkedin.com/in/iamafridi/" target="_blank"><CiLinkedin className="text-white text-2xl mb-1" /> LinkedIn</Link>
-        <Link href="https://github.com/iamafridi" target="_blank"><FaGithub className="text-white text-2xl mb-1" />Github</Link>
-        <Link href="https://iamafridi-portfolio.netlify.app/" target="_blank"><GrThreeDEffects className="text-white text-2xl mb-1" />3D Portfolio</Link>
-        <Link href="https://iamafridi.medium.com/" target="_blank"><FaMedium className="text-white text-2xl" />Blog</Link>
+      <p className="lg:flex lg:flex-col hidden md:  items-center  text-xs flex-row gap-5 text-center text-white justify-start md:flex-row">
+        <div className="flex flex-row gap-8 items-center">
+          <Link href="https://www.linkedin.com/in/iamafridi/" target="_blank"><CiLinkedin className="text-white text-2xl mb-1" /> LinkedIn</Link>
+          <Link href="https://github.com/iamafridi" target="_blank"><FaGithub className="text-white text-2xl mb-1" />Github</Link>
+        </div>
+        <div className="flex flex-row gap-8 items-center">
+          <Link href="https://iamafridi-portfolio.netlify.app/" target="_blank"><GrThreeDEffects className="text-white text-2xl mb-1" />3D Portfolio</Link>
+          <Link href="https://iamafridi.medium.com/" target="_blank"><FaMedium className="text-white text-2xl" />Blog</Link>
+        </div>
 
       </p>
     </div>
