@@ -42,11 +42,11 @@ export const exploreWorlds = [
 ];
 
 export const startingFeatures = [
-  'Front-end : HTML,CSS,JavaScript ,Tailwind ,Bootstrap, React',
+  'Front-end : HTML,CSS,JavaScript, React ,Tailwind ,Bootstrap',
   'Back-end : Node.Js, Express.Js',
   'Database : MongoDB',
-  'Tools : Firebase, Github, Figma',
-  'Beginner Level: Next.js, TenStack Query, Framer Motion',
+  'Tools : Firebase,Git, Github, Figma,VS Code',
+  'Familiar with: Next.js, TenStack Query, Framer Motion',
 ];
 
 export const newFeatures = [
@@ -89,8 +89,8 @@ export const insights = [
 
 export const socials = [
   {
-    name: 'twitter',
-    url: '/twitter.svg',
+    name: 'https://github.com/iamafridi',
+    url: '/github.png',
   },
   {
     name: 'linkedin',
