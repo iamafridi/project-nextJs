@@ -2,7 +2,7 @@
 
 import { motion } from 'framer-motion';
 import Link from 'next/link';
-import { socials } from '../constants';
+// import { socials } from '../constants';
 import styles from '../styles';
 import { footerVariants } from '../utils/motion';
 
@@ -13,7 +13,7 @@ const Footer = () => (
     whileInView="show"
     className={`${styles.paddings}py-8 relative`}
   >
-    <div className="flex flex-col">
+    <div id="contact" className="flex flex-col">
       <div className="mb-[50px] h-[2px] bg-white opacity-10" />
 
     </div>
@@ -30,7 +30,7 @@ const Footer = () => (
       <div className="flex flex-col">
         <div className="mb-[50px] h-[2px] bg-white opacity-10" />
         <div className="flex items-center justify-center gap-4">
-          <p className="font-normal text-[14px] text-white opacity-50"> Copyright © 2023 Afridi- All rights reserved </p>
+          <p className="font-normal text-[14px] text-white opacity-50"> Copyright © 2025 Afridi- All rights reserved </p>
           {/* <div className="flex gap-4">
             {
               socials.map((social) => (

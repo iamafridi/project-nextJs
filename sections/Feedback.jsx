@@ -10,40 +10,53 @@ const Feedback = () => (
       variants={staggerContainer}
       initial="hidden"
       whileInView="show"
-      viewport={{ once: 'false', amount: 0.25 }}
-      className={`${styles.innerWidth} mx-auto flex lg:flex-row flex-col gap-6`}
+      viewport={{ once: false, amount: 0.25 }}
+      className={`${styles.innerWidth} mx-auto flex flex-col lg:flex-row gap-6`}
     >
-      <motion.div variants={fadeIn('right', 'tween', 0.2, 1)}
-        className="flex-[0.5] lg:max-w-[370px] flex justify-end flex-col gradient-05 sm:p-8 p-4 rounded-[32px] border-[1px] relative"
+      {/* Feedback Text */}
+      <motion.div
+        variants={fadeIn('right', 'tween', 0.2, 1)}
+        className="flex-1 lg:max-w-[400px] flex flex-col justify-end bg-gradient-to-br from-purple-600 via-indigo-500 to-pink-500 sm:p-8 p-4 rounded-2xl border border-gray-700 relative"
       >
-        <div className="feedback-gradient" />
+        <div className="feedback-gradient absolute inset-0 rounded-2xl opacity-20 pointer-events-none" />
         <div>
-          <h4 className="font-bold sm:text-[32px] text-[26px] sm:leading-[40px] leading-[36px] text-white">
+          <h4 className="font-bold text-white sm:text-[32px] text-[24px] leading-tight sm:leading-[40px]">
             Afridi
           </h4>
-          <p className="mt-[8px] font-normal sm:text-[18px] text-[12px] sm:leading-[22px] leading-[16px] text-white">MERN Stack Developer | Undergrad Computer Science</p>
+          <p className="mt-2 font-normal text-white sm:text-[18px] text-[14px] sm:leading-[22px] leading-[18px]">
+            MERN Stack Developer | Undergrad Computer Science
+          </p>
         </div>
-        <p className="mt-[24px] font-normal sm:text-[24px] text-[18px] sm:leading-[45px] leading-[39px] text-white">Hello Good People, I am Afridi- a MERN Stack developer from Bangladesh.Currently I am pursuing my B.Sc in Computer Science and Engineering.Beyond coding, I channel my passion for technology into writing engaging blogs, sharing insights, tips, and experiences from my journey in the world of web development.
+        <p className="mt-6 font-normal text-white sm:text-[20px] text-[16px] sm:leading-[28px] leading-[22px]">
+          Hello Good People, I am Afridi — a MERN Stack developer from Bangladesh. Currently pursuing my B.Sc in Computer Science and Engineering. Beyond coding, I channel my passion for technology into writing engaging blogs and sharing insights from my journey in web development.
           <br /><br />
           Let's Connect and build something exciting.<br />
           Happy Coding<br /><br />
           Afridi 😊⭐
         </p>
       </motion.div>
-      <motion.div variants={fadeIn('left', 'tween', 0.2, 1)} className="relative flex-1 flex justify-center items-center">
+
+      {/* Profile Image */}
+      <motion.div
+        variants={fadeIn('left', 'tween', 0.2, 1)}
+        className="flex-1 flex justify-center items-center"
+      >
         <img
           src="/dp.jpg"
           alt="MyImage"
-          className="w-full lg:h-[610px] h-auto min-h-[210px] object-cover rounded-[40px]"
+          className="w-full max-w-[500px] lg:h-[610px] h-auto min-h-[250px] object-cover rounded-2xl"
         />
       </motion.div>
-      <motion.div variants={zoomIn(0, 4, 1)}
-        className="lg:block hidden absolute -left-[10%] top-[3%]"
+
+      {/* Decorative Mouse Image */}
+      <motion.div
+        variants={zoomIn(0, 4, 1)}
+        className="hidden lg:block absolute -left-10 top-3"
       >
         <img
           src="/mouse.png"
           alt="directionStamp"
-          className="w-[155px] h-[155px] object-contain"
+          className="w-[120px] lg:w-[155px] h-auto object-contain"
         />
       </motion.div>
     </motion.div>
