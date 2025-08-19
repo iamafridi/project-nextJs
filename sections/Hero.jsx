@@ -41,11 +41,11 @@ const Hero = () => (
         {/* Call-to-scroll button */}
         <a href="#explore">
           <div className="w-full flex justify-end sm:-mt-[70px] -mt-[50px] pr-[40px] relative z-10">
-            <img
+            {/* <img
               src="/mouse.png"
               alt="scroll down"
               className="sm:w-[80px] w-[60px] sm:h-[80px] h-[60px] object-contain rounded-full"
-            />
+            /> */}
           </div>
         </a>
       </motion.div>

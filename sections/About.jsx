@@ -6,7 +6,7 @@ import styles from '../styles';
 import { fadeIn, staggerContainer } from '../utils/motion';
 
 const About = () => (
-  <section id="about" className={`${styles.paddings} relative z-10`}>
+  <section id="about" className={`${styles.paddings}  relative z-10`}>
     <div className="gradient-02 z-0" />
     <motion.div
       variants={staggerContainer}
@@ -21,30 +21,33 @@ const About = () => (
       {/* About Content */}
       <motion.p
         variants={fadeIn('up', 'tween', 0.2, 1)}
-        className="mt-4 font-normal text-[16px] sm:text-[18px] leading-relaxed text-center text-slate-50 max-w-3xl"
+        className="mt-4 tracking-wider font-medium lg:text-[18px] text-[10px] leading-relaxed text-center text-slate-50 max-w-5xl"
       >
-        I am a <span className="font-semibold text-white">Software Engineer</span>
-        with hands-on experience in <span className="font-semibold text-white">Full-stack(MERN) development</span>,
-        responsive design, and AI-powered applications. My journey began with
-        <span className="font-semibold text-white"> C/C++</span>, building a strong foundation in
-        <span className="font-semibold text-white"> problem-solving, OOP, and data structures</span>,
-        before moving into modern web technologies.
+        I am a passionate <span className="font-semibold text-white">Software Engineer</span> currently pursuing my
+        <span className="font-semibold text-white"> Bachelor's in Computer Science and Engineering</span> at East Delta University,
+        with expertise in <span className="font-semibold text-white">Full-stack (MERN) development</span> and
+        modern web technologies. My foundation in <span className="font-semibold text-white">Java, C/C++, OOP,
+          and Data Structures</span> has shaped my problem-solving approach and technical thinking.
         <br /><br />
-        I’ve worked as a <span className="font-semibold text-white">Frontend Developer at Growwr</span>,
-        building responsive, user-friendly websites, and as a
-        <span className="font-semibold text-white"> MERN Stack Developer at TNL Esports</span>,
-        where I created systems for project management, recruitment, and scheduling.
-        Most recently, I completed a <span className="font-semibold text-white">Software Engineering Fellowship
-          at Headstarter AI</span>, where I delivered high-quality AI-driven projects and
-        contributed to open source.
+        I've gained valuable industry experience as a <span className="font-semibold text-white">Frontend Developer
+          at Growwr (USA)</span>, where I developed and optimized React + TypeScript web pages with smooth animations
+        and responsive design. I also completed a <span className="font-semibold text-white">Software Engineering
+          Fellowship at Headstarter AI</span>, building interactive 3D portfolios and demonstrating rapid prototyping
+        skills under tight deadlines.
         <br /><br />
-        My technical expertise spans <span className="font-semibold text-white">React, Next.js, Node.js,
-          Express, MongoDB, Tailwind CSS, and Framer Motion</span>, with additional
-        experience in <span className="font-semibold text-white">Firebase, Stripe, and AI/NLP integrations</span>.
-        I am passionate about solving real-world problems, continuously learning, and
-        building applications that blend <span className="italic">functionality with creativity</span>.
+        My technical arsenal includes <span className="font-semibold text-white">React.js, Next.js, TypeScript,
+          Node.js, Express.js, MongoDB, and Tailwind CSS </span>, complemented by experience with
+        <span className="font-semibold text-white"> Three.js, Framer Motion, Firebase, Stripe payments, and
+          JWT authentication</span>. I've successfully delivered projects like
+        <span className="font-semibold text-white"> Elara Travels</span> (a full-stack travel solution) and
+        <span className="font-semibold text-white"> Phero-Arena</span> (a gaming platform), showcasing my ability
+        to build secure, scalable applications.
         <br /><br />
-        <span className="italic text-slate-300">Let’s build something impactful 🚀</span>
+        Beyond development, I'm a <span className="font-semibold text-white">two-time award winner</span> at
+        EDU Engineering Days for AI applications and innovative presentations. I believe in continuous learning,
+        creative problem-solving, and building applications that make a real impact.
+        <br /><br />
+        <span className="italic text-slate-300">Ready to turn ideas into exceptional digital experiences 🚀</span>
       </motion.p>
 
       {/* Scroll Arrow */}

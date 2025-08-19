@@ -5,7 +5,7 @@ import { BsFillArrowUpRightCircleFill } from 'react-icons/bs';
 import styles from '../styles';
 import { fadeIn } from '../utils/motion';
 
-const ExploreCard = ({ id, imgUrl, logo, title, index, link, active, handleClick }) => (
+const AboutCard = ({ id, imgUrl, logo, title, index, link, active, handleClick }) => (
   <motion.div
     variants={fadeIn('right', 'spring', index * 0.5, 0.75)}
     className={`
@@ -55,4 +55,4 @@ const ExploreCard = ({ id, imgUrl, logo, title, index, link, active, handleClick
   </motion.div>
 );
 
-export default ExploreCard;
+export default AboutCard;
