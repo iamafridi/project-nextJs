@@ -28,15 +28,10 @@ const ExploreCard = ({ id, imgUrl, logo, title, index, link, active, handleClick
 
     {/* Inactive State */}
     {active !== id ? (
-      <h3 className="font-semibold text-white absolute z-0 
-                     bottom-12 lg:bottom-20 
-                     sm:text-[22px] text-[16px] 
-                     lg:text-[26px] 
-                     lg:rotate-[-90deg] lg:origin-[0,0]">
+      <h3 className="font-semibold text-white absolute z-0 bottom-12 lg:bottom-20 sm:text-[22px] text-[16px] lg:text-[26px] lg:rotate-[-90deg] lg:origin-[0,0]">
         {title}
       </h3>
     ) : (
-      /* Active State */
       <div className="absolute bottom-0 w-full p-4 sm:p-6 md:p-8 flex flex-col justify-start bg-[rgba(0,0,0,0.5)] rounded-b-[24px]">
         <div className={`${styles.flexCenter} w-12 sm:w-14 h-12 sm:h-14 rounded-[24px] glassmorphism mb-4 sm:mb-6 text-xl sm:text-2xl text-white`}>
           {logo}
@@ -52,7 +47,7 @@ const ExploreCard = ({ id, imgUrl, logo, title, index, link, active, handleClick
         </h2>
       </div>
     )}
-  </motion.div>
+  </motion.div >
 );
 
 export default ExploreCard;

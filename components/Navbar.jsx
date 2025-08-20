@@ -58,10 +58,7 @@ const Navbar = () => {
         </div>
 
         {/* Mobile Menu Button */}
-        <button
-          className="md:hidden text-white text-3xl"
-          onClick={() => setMenuOpen(!menuOpen)}
-        >
+        <button className="md:hidden text-white text-3xl" onClick={() => setMenuOpen(!menuOpen)}>
           {menuOpen ? <HiX /> : <HiMenuAlt3 />}
         </button>
       </div>
