@@ -6,54 +6,55 @@ import { LuCupSoda } from "react-icons/lu";
 export const exploreWorlds = [
   {
     id: "world-1",
-    imgUrl: "/planet-01.png",
-    title: "Elara Travels",
-    link: "https://elara-travels.web.app/",
-    logo: <SiYourtraveldottv />,
-  },
-  {
-    id: "world-2",
-    imgUrl: "/planet-02.1.png",
-    title: "Elara Briefify",
-    link: "https://elarabriefify.netlify.app/",
-    logo: <FaGamepad />,
-  },
-  {
-    id: "world-3",
     imgUrl: "/planet-02.png",
     title: "PHero-Arena",
     link: "https://phero-arena.netlify.app/",
     logo: <FaGamepad />,
   },
   {
-    id: "world-4",
-    imgUrl: "/planet-03.png",
-    title: "Elara Ai Studio",
-    link: "https://iamafridi.github.io/elara-ai-studio/",
-    logo: <FaBookReader />,
+    id: "world-2",
+    imgUrl: "/planet-01.png",
+    title: "Elara Travels",
+    link: "https://elara-travels.web.app/",
+    logo: <SiYourtraveldottv />,
   },
   {
-    id: "world-5",
+    id: "world-3",
+    imgUrl: "/planet-05.png",
+    title: "Elara Library",
+    link: "https://e-book-library-ba9da.web.app/",
+    logo: <LuCupSoda />,
+  },
+  {
+    id: "world-4",
+    imgUrl: "/planet-02.1.png",
+    title: "Elara Briefify",
+    link: "https://elarabriefify.netlify.app/",
+    logo: <FaGamepad />,
+  },
+  // {
+  //   id: "world-5",
+  //   imgUrl: "/planet-03.png",
+  //   title: "Elara Ai Studio",
+  //   link: "https://iamafridi.github.io/elara-ai-studio/",
+  //   logo: <FaBookReader />,
+  // },
+  {
+    id: "world-6",
     imgUrl: "/planet-04.png",
     title: "3D Website",
     link: "https://iamafridi-portfolio.netlify.app/",
     logo: <GrThreeDEffects />,
   },
-  {
-    id: "world-6",
-    imgUrl: "/planet-05.png",
-    title: "Elara",
-    link: "https://iamafridi.github.io/elara-studio/",
-    logo: <LuCupSoda />,
-  },
 ];
 
 export const startingFeatures = [
-  "Front-end : HTML,CSS,JavaScript, React ,Tailwind ,Bootstrap",
-  "Back-end : Node.Js, Express.Js",
-  "Database : MongoDB",
-  "Tools : Firebase,Git, Github, Figma,VS Code",
-  "Familiar with: Next.js, TenStack Query, Framer Motion",
+  "Frontend: React.js, Next.js, TypeScript, Tailwind CSS, Material-UI, Redux, Redux Toolkit",
+  "Backend: Node.js, Express.js, MongoDB, Firebase, MySQL, JWT, RESTful API, Axios, Stripe",
+  "Languages: Java, C, C++, Python, OOP, DSA",
+  "Deployment & Workflow Tools: Netlify, Surge, Vercel",
+  "Version Control & Collaboration: Git, GitHub, Jira, Slack (Agile workflows)",
+  "Familiar with: Three.js, Framer Motion, API Development & Testing (Postman)",
 ];
 
 export const newFeatures = [

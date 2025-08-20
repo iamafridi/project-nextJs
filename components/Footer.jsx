@@ -30,7 +30,9 @@ const Footer = () => (
       <div className="flex flex-col">
         <div className="mb-[50px] h-[2px] bg-white opacity-10" />
         <div className="flex items-center justify-center gap-4">
-          <p className="font-normal text-[14px] text-white opacity-50"> Copyright © 2025 Afridi- All rights reserved </p>
+          <p className="font-normal text-[14px] text-white opacity-50"> Copyright © 2025 Afridi- All rights reserved
+            <a className="font-bold underline underline-offset-4 text-center ml-5 uppercase" href="http://iamafrididev.netlify.app">• Portfolio ↗</a>
+          </p>
           {/* <div className="flex gap-4">
             {
               socials.map((social) => (
